@@ -18,6 +18,7 @@ const ownerSchema =  mongoose.Schema({
     contact : Number, 
     picture : String,
 
+
 });
 
 module.exports = mongoose.model("User", ownerSchema);
